@@ -99,3 +99,5 @@ bool isArrayHeap(const vector<int>& arr)
     return true;
 }
 #endif
+
+#include <vector>

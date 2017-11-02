@@ -10,12 +10,14 @@
 //#include "Graph/Graph.hpp"
 #include "Graph/Dijkstra.hpp"
 #include "Sorting And Searching/HeapSort.hpp"
+#include "Sorting And Searching/BinarySearch.h"
 using namespace std;
 
 int main(int argc, char** argv)
 {
     cout << "Sorting And Searching" << endl;
-    test_HeapSort();
+//    test_HeapSort();
+    test_BinarySearch();
 
 
     cout << "Graph" << endl;
