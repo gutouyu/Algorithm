@@ -12,5 +12,6 @@ Top 10 algorithms in Interview Questions
 
 # Sorting And Searching
 - [x] Quick Sort
+- [x] Bubble Sort
 - [x] Heap Sort(Binary Heap)
 - [x] Binary Search
