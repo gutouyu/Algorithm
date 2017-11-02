@@ -65,3 +65,37 @@ void test_HeapSort()
     }
 
 }
+
+#if 0
+struct Node
+{
+    int data;
+    Node* left;
+    Node* right;
+};
+bool isHeap(Node * tree)//max heap
+{
+    if (tree == NULL) return true;
+
+    Node* leftChild = tree->left;
+    Node* rightChild = tree->right;
+    if (leftChild == NULL && rightChild == NULL) return true;
+    if (leftChild && leftChild->data > tree->data) return false;
+    if (rightChild && rightChild->data > tree->data) return false;
+
+    return isHeap(tree->left) && isHeap(tree->right);
+}
+
+bool isArrayHeap(const vector<int>& arr)
+{
+    int n = arr.size();
+    for (int i = (n-2)/2; i >= 0; --i)
+    {
+        int left = i * 2 + 1;
+        int right = i * 2 + 2;
+        if (left < n && arr[left] > arr[i]) return false;
+        if (right < n  && arr[right] > arr[i]) return false;
+    }
+    return true;
+}
+#endif
