@@ -8,8 +8,8 @@
 
 #include <iostream>
 //#include "Graph/Graph.hpp"
-#include "Graph/Dijkstra.hpp"
-#include "Sorting And Searching/HeapSort.hpp"
+#include "Graph/Dijkstra.h"
+#include "Sorting And Searching/HeapSort.h"
 #include "Sorting And Searching/BinarySearch.h"
 #include "Sorting And Searching/BubbleSort.h"
 using namespace std;
