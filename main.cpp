@@ -12,6 +12,8 @@
 #include "Sorting And Searching/HeapSort.h"
 #include "Sorting And Searching/BinarySearch.h"
 #include "Sorting And Searching/BubbleSort.h"
+#include "Tree/MinDepth.h"
+
 using namespace std;
 
 int main(int argc, char** argv)
@@ -19,13 +21,16 @@ int main(int argc, char** argv)
     cout << "Sorting And Searching" << endl;
 //    test_HeapSort();
 //    test_BinarySearch();
-    test_BubbleSort();
+//    test_BubbleSort();
 
 
     cout << "Graph" << endl;
 //    test_BFS();
 //    test_DFS();
 //    test_dijkstra();
+
+    cout << "Tree/Binary Search Tree" << endl;
+    test_FindMinDepthOfBinaryTree();
 
     return 0;
 }
