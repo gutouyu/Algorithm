@@ -15,6 +15,7 @@ Top 10 algorithms in Interview Questions
 - [x] Bubble Sort
 - [x] Heap Sort(Binary Heap)
 - [x] Binary Search
+- [x] Search an element in a sorted and rotated array(**O(logN),BinarySearch**)
 
 # Tree / Binary Search Tree
 - [x] Find minimum depth of binary tree(**Recursive**)
