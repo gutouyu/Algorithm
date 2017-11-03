@@ -10,6 +10,7 @@
 //#include "Graph/Graph.hpp"
 #include "Graph/Dijkstra.h"
 #include "Sorting And Searching/HeapSort.h"
+#include "Sorting And Searching/QuickSort.h"
 #include "Sorting And Searching/BinarySearch.h"
 #include "Sorting And Searching/BubbleSort.h"
 #include "Tree/MinDepth.h"
@@ -23,11 +24,12 @@ using namespace std;
 int main(int argc, char** argv)
 {
     cout << "Sorting And Searching" << endl;
+    test_QuickSort();
 //    test_HeapSort();
 //    test_BinarySearch();
 //    test_BubbleSort();
 //    test_pivotedBinarySearch();
-    test_InsertSort();
+//    test_InsertSort();
 
 
 
