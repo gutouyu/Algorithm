@@ -16,6 +16,7 @@
 #include "Tree/MaxPathSum.h"
 #include "Tree/MaxPathSumLeaf2Root.h"
 #include "Sorting And Searching/SearchInSortedAndRotatedArray.h"
+#include "Sorting And Searching/InsertSort.h"
 
 using namespace std;
 
@@ -25,7 +26,9 @@ int main(int argc, char** argv)
 //    test_HeapSort();
 //    test_BinarySearch();
 //    test_BubbleSort();
-    test_pivotedBinarySearch();
+//    test_pivotedBinarySearch();
+    test_InsertSort();
+
 
 
     cout << "Graph" << endl;
