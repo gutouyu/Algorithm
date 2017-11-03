@@ -15,6 +15,7 @@
 #include "Tree/MinDepth.h"
 #include "Tree/MaxPathSum.h"
 #include "Tree/MaxPathSumLeaf2Root.h"
+#include "Sorting And Searching/SearchInSortedAndRotatedArray.h"
 
 using namespace std;
 
@@ -24,6 +25,7 @@ int main(int argc, char** argv)
 //    test_HeapSort();
 //    test_BinarySearch();
 //    test_BubbleSort();
+    test_pivotedBinarySearch();
 
 
     cout << "Graph" << endl;
@@ -34,7 +36,7 @@ int main(int argc, char** argv)
     cout << "Tree/Binary Search Tree" << endl;
 //    test_FindMinDepthOfBinaryTree();
 //    test_maxPathSum();
-    test_maxPathSumLeaf2Root();
+//    test_maxPathSumLeaf2Root();
 
     return 0;
 }
