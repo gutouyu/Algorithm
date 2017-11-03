@@ -13,6 +13,7 @@
 #include "Sorting And Searching/BinarySearch.h"
 #include "Sorting And Searching/BubbleSort.h"
 #include "Tree/MinDepth.h"
+#include "Tree/MaxPathSum.h"
 
 using namespace std;
 
@@ -30,7 +31,8 @@ int main(int argc, char** argv)
 //    test_dijkstra();
 
     cout << "Tree/Binary Search Tree" << endl;
-    test_FindMinDepthOfBinaryTree();
+//    test_FindMinDepthOfBinaryTree();
+    test_maxPathSum();
 
     return 0;
 }

@@ -18,4 +18,4 @@ Top 10 algorithms in Interview Questions
 
 # Tree / Binary Search Tree
 - [x] Find minimum depth of binary tree(**Recursive**)
-
+- [x] Maximum Path Sum in a Binary Tree(**Recursive**)
