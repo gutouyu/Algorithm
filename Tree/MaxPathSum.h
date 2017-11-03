@@ -6,8 +6,11 @@
 #define ALGORITHM_MAXPATHSUM_H
 
 #include <iostream>
+#include "TreeNode.h"
 
 using namespace std;
+
+
 /**
  * For each node there can be four ways that the max path goes through the node:
  * 1. Node only
@@ -20,13 +23,6 @@ using namespace std;
  * such that at most one child of root is involved. This is needed for parent function call.
  * In below code, this sum is stored in ‘max_single’ and returned by the recursive function.
  */
-
-// A binary tree node
-struct TreeNode
-{
-    int data;
-    struct TreeNode* left, *right;
-};
 
 // This function returns overall maximum path sum in 'res'
 // And returns max path sum going through root.
@@ -60,25 +56,18 @@ int maxPathSum(const TreeNode *root)
     return res;
 }
 
-struct TreeNode* newNode(int data)
-{
-    TreeNode* tmp = new TreeNode();
-    tmp->data = data;
-    tmp->left = NULL;
-    tmp->right = NULL;
-    return tmp;
-};
 
+// test
 void test_maxPathSum()
 {
-    struct TreeNode *root = newNode(10);
-    root->left        = newNode(2);
-    root->right       = newNode(10);
-    root->left->left  = newNode(20);
-    root->left->right = newNode(1);
-    root->right->right = newNode(-25);
-    root->right->right->left   = newNode(3);
-    root->right->right->right  = newNode(4);
+    struct TreeNode *root = createNode(10);
+    root->left        = createNode(2);
+    root->right       = createNode(10);
+    root->left->left  = createNode(20);
+    root->left->right = createNode(1);
+    root->right->right = createNode(-25);
+    root->right->right->left   = createNode(3);
+    root->right->right->right  = createNode(4);
     std::cout << "Max path sum is " << maxPathSum(root);
 }
 

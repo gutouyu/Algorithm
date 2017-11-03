@@ -6,6 +6,9 @@
 #define ALGORITHM_FINDMINIMUMDEPTHOFBINARYTREE_H
 
 #include <iostream>
+#include "TreeNode.h"
+
+#include "TreeNode.h"
 
 using namespace std;
 
@@ -21,14 +24,7 @@ using namespace std;
  * 然后，left right至少有一个不为空，如果左子树为空，就遍历右子树；如果右子树为空，就遍历左子树；
  * 最后，left right全都不为空，都遍历，取两者较小的值
  */
-
-struct Node
-{
-    int data;
-    struct Node *left, *right;
-};
-
-int minDepth(const Node* root)
+int minDepth(const TreeNode* root)
 {
     if (root == NULL)
         return 0;
@@ -53,17 +49,9 @@ int minDepth(const Node* root)
 /**
  *  Test
  */
-Node* createNode(int data)
-{
-    Node *tmp = new Node();
-    tmp->data = data;
-    tmp->left = NULL;
-    tmp->right = NULL;
-    return tmp;
-}
 void test_FindMinDepthOfBinaryTree()
 {
-    Node *root = createNode(1);
+    TreeNode *root = createNode(1);
     root->left = createNode(2);
     root->right       = createNode(3);
     root->left->left  = createNode(4);

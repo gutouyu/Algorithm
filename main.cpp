@@ -14,6 +14,7 @@
 #include "Sorting And Searching/BubbleSort.h"
 #include "Tree/MinDepth.h"
 #include "Tree/MaxPathSum.h"
+#include "Tree/MaxPathSumLeaf2Root.h"
 
 using namespace std;
 
@@ -32,7 +33,8 @@ int main(int argc, char** argv)
 
     cout << "Tree/Binary Search Tree" << endl;
 //    test_FindMinDepthOfBinaryTree();
-    test_maxPathSum();
+//    test_maxPathSum();
+    test_maxPathSumLeaf2Root();
 
     return 0;
 }
