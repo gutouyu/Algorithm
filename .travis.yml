@@ -13,4 +13,4 @@ install:
   - sudo ls
 
 script: 
- - g++ main.cpp -o a.out && ./a.out
+ - g++ -std=c++11 main.cpp -o a.out && ./a.out
