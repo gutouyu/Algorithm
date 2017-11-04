@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/gutouyu/Algorithm.svg?branch=master)
+
 # Algorithm
 
 Top 10 algorithms in Interview Questions
