@@ -1,5 +1,5 @@
 sudo: true
-os: linux
+os: osx
 language: cpp
 
 compiler:
@@ -10,7 +10,7 @@ before_install:
 
 
 install: 
-  - sudo apt-get install vim
+  - sudo ls
 
 script: 
  - g++ main.cpp -o a.out && ./a.out
