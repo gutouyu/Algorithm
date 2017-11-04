@@ -14,4 +14,3 @@ install:
 
 script: 
  - g++ main.cpp -o a.out && ./a.out
- - ./build_desktop.sh
