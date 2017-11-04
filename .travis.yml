@@ -1,5 +1,17 @@
-os: osx
+sudo: true
+os: linux
 language: cpp
+
 compiler:
   - gcc
- 
+
+before_install:
+  - sudo cat main.cpp
+
+
+install: 
+  - sudo apt-get install vim
+
+script: 
+ - g++ main.cpp -o a.out && ./a.out
+ - ./build_desktop.sh
