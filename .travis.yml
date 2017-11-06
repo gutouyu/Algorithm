@@ -1,0 +1,16 @@
+sudo: true
+os: osx
+language: cpp
+
+compiler:
+  - gcc
+
+before_install:
+  - sudo cat main.cpp
+
+
+install: 
+  - sudo ls
+
+script: 
+ - g++ -std=c++11 main.cpp -o a.out && ./a.out
