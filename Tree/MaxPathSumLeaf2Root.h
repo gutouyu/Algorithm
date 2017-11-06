@@ -25,7 +25,7 @@ int maxPathSumLeaf2Root(TreeNode* root)
 }
 
 
-int test_maxPathSumLeaf2Root()
+void test_maxPathSumLeaf2Root()
 {
     TreeNode *root = createNode(10);
     root->left = createNode(-2);

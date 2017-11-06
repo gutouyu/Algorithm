@@ -18,18 +18,21 @@
 #include "Tree/MaxPathSumLeaf2Root.h"
 #include "Sorting And Searching/SearchInSortedAndRotatedArray.h"
 #include "Sorting And Searching/InsertSort.h"
+#include "Sorting And Searching/MergeSort.h"
 
 using namespace std;
 
 int main(int argc, char** argv)
 {
     cout << "Sorting And Searching" << endl;
-    test_QuickSort();
+//    test_QuickSort();
 //    test_HeapSort();
 //    test_BinarySearch();
 //    test_BubbleSort();
 //    test_pivotedBinarySearch();
 //    test_InsertSort();
+    test_MergeSort();
+
 
 
 

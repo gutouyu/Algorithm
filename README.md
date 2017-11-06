@@ -11,10 +11,11 @@ Top 10 algorithms in Interview Questions
 
 
 # Sorting And Searching
-- [x] Quick Sort
+- [x] Quick Sort(**Divide and Conquer**)
 - [x] Bubble Sort
 - [x] Insert Sort
 - [x] Heap Sort(Binary Heap)
+- [x] Merge Sort(**Divide and Conquer**)
 - [x] Binary Search
 - [x] Search an element in a sorted and rotated array(**O(logN),BinarySearch**)
 
