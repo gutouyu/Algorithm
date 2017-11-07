@@ -9,6 +9,7 @@
 #include <iostream>
 //#include "Graph/Graph.hpp"
 #include "Graph/Dijkstra.h"
+#include "Graph/Floyd.h"
 #include "Sorting And Searching/HeapSort.h"
 #include "Sorting And Searching/QuickSort.h"
 #include "Sorting And Searching/BinarySearch.h"
@@ -31,7 +32,7 @@ int main(int argc, char** argv)
 //    test_BubbleSort();
 //    test_pivotedBinarySearch();
 //    test_InsertSort();
-    test_MergeSort();
+//    test_MergeSort();
 
 
 
@@ -40,6 +41,7 @@ int main(int argc, char** argv)
 //    test_BFS();
 //    test_DFS();
 //    test_dijkstra();
+    test_Floyd();
 
     cout << "Tree/Binary Search Tree" << endl;
 //    test_FindMinDepthOfBinaryTree();

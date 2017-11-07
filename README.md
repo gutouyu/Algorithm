@@ -9,8 +9,8 @@ Top 10 algorithms in Interview Questions
 # Graph
 - [x] Breadth First Search(**BFS**)
 - [x] Depth First Search(**DFS**)
-- [x] Shorest Path from source to all vertices **Dijkstra**
-
+- [x] Shorest Path from source to all vertices(**Dijkstra**)
+- [x] All Pairs Shorest Path problem.(**Floyd**)
 
 # Sorting And Searching
 - [x] Quick Sort(**Divide and Conquer**)
