@@ -11,6 +11,7 @@ Top 10 algorithms in Interview Questions
 - [x] Depth First Search(**DFS**)
 - [x] Shorest Path from source to all vertices(**Dijkstra**)
 - [x] All Pairs Shorest Path problem.(**Floyd**)
+- [x] To detect a cycle in a Graph(**Union Find**)
 
 # Sorting And Searching
 - [x] Quick Sort(**Divide and Conquer**)

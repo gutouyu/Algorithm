@@ -10,6 +10,7 @@
 //#include "Graph/Graph.hpp"
 #include "Graph/Dijkstra.h"
 #include "Graph/Floyd.h"
+#include "Graph/UnionFind.h"
 #include "Sorting And Searching/HeapSort.h"
 #include "Sorting And Searching/QuickSort.h"
 #include "Sorting And Searching/BinarySearch.h"
@@ -34,14 +35,12 @@ int main(int argc, char** argv)
 //    test_InsertSort();
 //    test_MergeSort();
 
-
-
-
     cout << "Graph" << endl;
 //    test_BFS();
 //    test_DFS();
 //    test_dijkstra();
-    test_Floyd();
+//    test_Floyd();
+    UnionFind::test_UnionFind();
 
     cout << "Tree/Binary Search Tree" << endl;
 //    test_FindMinDepthOfBinaryTree();
